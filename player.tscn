@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b7red4o671ib6"]
+
+[ext_resource type="Script" uid="uid://c4bawr7yl6sby" path="res://player.gd" id="1_4flbx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0swe"]
+size = Vector2(39.5, 59.75)
+
+[node name="Player" type="CharacterBody2D" unique_id=1410339274]
+script = ExtResource("1_4flbx")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=326493971]
+offset_left = 6.0
+offset_top = 560.0
+offset_right = 46.0
+offset_bottom = 620.0
+color = Color(0.827451, 0.38431373, 0.24313726, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1262110595]
+position = Vector2(26, 590)
+shape = SubResource("RectangleShape2D_h0swe")
+debug_color = Color(0.26638302, 0.4888637, 0.5783635, 0.5411765)
