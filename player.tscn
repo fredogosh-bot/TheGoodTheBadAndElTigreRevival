@@ -9,14 +9,14 @@ size = Vector2(39.5, 59.75)
 script = ExtResource("1_4flbx")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=326493971]
-offset_left = 111.0
-offset_top = 490.0
-offset_right = 151.0
-offset_bottom = 550.0
+offset_left = 55.0
+offset_top = 540.0
+offset_right = 95.0
+offset_bottom = 600.0
 color = Color(0.827451, 0.38431373, 0.24313726, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1262110595]
-position = Vector2(131, 520)
+position = Vector2(75, 570)
 shape = SubResource("RectangleShape2D_h0swe")
 debug_color = Color(0.26638302, 0.4888637, 0.5783635, 0.5411765)

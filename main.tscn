@@ -9,7 +9,10 @@ size = Vector2(3978, 55.625)
 size = Vector2(87.75, 1127.25)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ig7tw"]
-size = Vector2(75.875, 1135.5)
+size = Vector2(75.875, 1191.375)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0xm2m"]
+size = Vector2(38.9375, 575.84375)
 
 [node name="main" type="Node2D" unique_id=2104369919]
 
@@ -30,5 +33,12 @@ shape = SubResource("RectangleShape2D_w210y")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ParedDerecha" unique_id=565185450]
 position = Vector2(1, 118)
 shape = SubResource("RectangleShape2D_ig7tw")
+
+[node name="Techo" type="StaticBody2D" parent="." unique_id=146887429]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Techo" unique_id=942712808]
+position = Vector2(473, 404)
+rotation = 1.5707964
+shape = SubResource("RectangleShape2D_0xm2m")
 
 [node name="Player" parent="." unique_id=1410339274 instance=ExtResource("1_ig7tw")]
